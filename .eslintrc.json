@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": "eslint:recommended",
+  "env": {
+    "node": true,
+    "jquery": true,
+    "mocha": true
+  },
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
+  "rules": {
+    "no-console": [0, { "allow": ["warn", "error"] }]
+  }
+}
